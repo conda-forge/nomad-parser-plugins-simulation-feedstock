@@ -1,5 +1,5 @@
 {% set name = "nomad-parser-plugins-simulation" %}
-{% set version = "1.0.2" %}
+{% set version = "1.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/nomad_parser_plugins_simulation-{{ version }}.tar.gz
-  sha256: 08d0ca7ee97819de2a80fbdca742a926a40f464dc17d57cafb2d51ab52ad5dd3
+  sha256: 8ab115e5e82dfd33a04b44b4080c9634551513e6e95b437667adf8d3d1d4ea71
 
 build:
   noarch: python
